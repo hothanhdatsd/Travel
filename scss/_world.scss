@@ -1,0 +1,31 @@
+.world {
+    &-main {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-heading {
+        font-weight: bold;
+        font-size: 36px;
+    }
+    &-desc {
+        font-weight: 400;
+        margin: 20px 0 33px 0;
+        width: 450px;
+    }
+    &-img {
+        margin-left: -60px;
+    }
+    &-right {
+        margin-right: 120px;
+    }
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    margin-top: 120px;
+    &-right {
+        margin-left: 0;
+    }
+}

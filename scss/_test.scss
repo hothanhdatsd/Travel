@@ -1,0 +1,30 @@
+.test {
+    &-heading {
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 170px;
+        margin-bottom: 30px;
+    }
+    &-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-star {
+        color: #FFBB0C;
+        width: 25px;
+    }
+    &-desc {
+        font-size: 24px;
+        width: 450px;
+        margin: 30px 0 40px 0;
+    }
+    &-name {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    &-img {
+        margin-right: 120px;
+        object-fit: cover;
+    }
+}

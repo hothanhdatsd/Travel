@@ -1,0 +1,32 @@
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 15px;
+    border: solid 1px #FB8F1D;
+    color: #FB8F1D;
+    border-radius: 8px;
+    padding: 8px 36px;
+    max-width: 154px;
+    text-align: center;
+    cursor: pointer;
+    &-primary {
+        background-color: #FB8F1D;
+        color: #fff;
+    }
+}

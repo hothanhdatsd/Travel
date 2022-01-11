@@ -1,0 +1,23 @@
+.header {
+    &-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-left {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 25px;
+    cursor: pointer;
+    &-item:first-child {
+        font-weight: 500;
+    }
+}
